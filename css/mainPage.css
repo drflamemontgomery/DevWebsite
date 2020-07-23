@@ -1,47 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
 
 body {
-	background-color: #50AEDC;
+	background-color: #DAAE26;
 	margin: 0;
+	font-family: 'Quicksand', sans-serif;
 }
 
 
-table, th, td {
+/*table, th, td {
 	border: 1px solid #080E11;
 	border-collapse: collapse;
-}
+}*/
 
 /*div {
 	background-color: #FAFAFA;
 }*/
 
 .PageBar {
-	background-color: #BEC8CD;
-	color: #080E11;
-/*	padding: 2px;*/
-	height: 24px;
+	background-color: #DAAE26;
+	color: #BEC8CD;
+	/*	padding: 2px;*/
+	padding: 0.5em;
+	height: 1.2em;
 }
 
 .PageLink {
-	color: #080E11;
-	font-family: sans-serif;
+	color: #252C2F;
+	text-decoration: none;
+	padding: 0.2em 1em;
 }
 
 .HeaderContainer {
-	background-color: #DDEBF1;
+	background-color: #ECE9DD;
 	padding: 50px;
 	height: 200px;
 }
 
 .HeaderTitle {
-	font-family: 'Quicksand', sans-serif;
 	font-size: 38;
 	color: #02020A;
 }
 
 .HeaderImage {
-	width: 195px;
-	height: 195px;
+	width: 144px;
+	height: 144px;
 	float: left;
 }
 
