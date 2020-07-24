@@ -16,6 +16,29 @@ body {
 	background-color: #FAFAFA;
 }*/
 
+div {
+	width: calc(50%-.5em);;
+}
+
+
+
+.ContactForm {
+	background-color: #ECE9DD;
+	text-align: center;
+	padding: 50px;
+	width: 100%;
+	overflow: hidden;
+}
+
+.FooterContainer {
+	background-color: #D4D4C8;
+	padding: 1px;
+}
+
+.FooterText {
+	text-align: center;
+}
+
 .PageBar {
 	background-color: #DAAE26;
 	color: #252C2F;
@@ -32,14 +55,27 @@ body {
 	margin: auto 0;
 }
 
+.AboutMeContainer {
+	background-color: #ECE9DD;
+	padding: 50px;
+	height: 200px;
+	display: inline-block;
+	border-radius: 25px;
+	margin-right: 70px;
+	margin-left: 70px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
 .HeaderContainer {
 	background-color: #ECE9DD;
 	padding: 50px;
 	height: 200px;
+	width: 100%;
 }
 
 .HeaderTitle {
-	font-size: 38;
+	font-size: 30px;
 	color: #02020A;
 }
 
@@ -49,9 +85,31 @@ body {
 	float: left;
 }
 
+.MyLinks {
+	display: inline-block;
+	margin-right: 10px;
+	padding: 5px;
+	vertical-align: middle;
+}
+
+.LinkIcon {
+	height: 32px;
+	width: 32px;
+	display: inline-block;
+}
+
+.HeaderLink {
+	display: inline-block;
+	color: #02020A;
+}
+
+.PageContainer {
+	background-color: #DEB841;
+}
+
 .HeaderSubtitle {
 	font-family: 'Quicksand', sans-serif;
-	font-size: 24;
+	font-size: 20px;
 	color: #02020A;
 }
 
