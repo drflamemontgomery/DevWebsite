@@ -18,16 +18,18 @@ body {
 
 .PageBar {
 	background-color: #DAAE26;
-	color: #BEC8CD;
+	color: #252C2F;
 	/*	padding: 2px;*/
 	padding: 0.5em;
-	height: 1.2em;
+	/*height: 1.8em;*/
+	display: flex;
 }
 
 .PageLink {
 	color: #252C2F;
 	text-decoration: none;
 	padding: 0.2em 1em;
+	margin: auto 0;
 }
 
 .HeaderContainer {
