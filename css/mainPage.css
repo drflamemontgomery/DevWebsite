@@ -4,6 +4,7 @@ body {
 	background-color: #DAAE26;
 	margin: 0;
 	font-family: 'Quicksand', sans-serif;
+	width: 100%;
 }
 
 
@@ -14,7 +15,7 @@ body {
 
 /*div {
 	background-color: #FAFAFA;
-}*/
+/}*/
 
 div {
 	width: calc(50%-.5em);;
@@ -46,6 +47,7 @@ div {
 	padding: 0.5em;
 	/*height: 1.8em;*/
 	display: flex;
+	width: 100%
 }
 
 .PageLink {
